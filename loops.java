@@ -14,10 +14,10 @@ class loops {
 		int y = 45;
 		while (y >= 20){
 			System.out.println(y);
-			y = y-5;
+			y -= 5;
 		};
 		System.out.println("-----------------------------------");
-		for (int j = 24; j <= 68; j = j +2) {
+		for (int j = 24; j <= 68; j += 2) {
 			System.out.println(j);
 		};
 
